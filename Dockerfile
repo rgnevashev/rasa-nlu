@@ -11,7 +11,7 @@ RUN apt-get update -qq \
 RUN pip install rasa_nlu
 
 # MITIE
-RUN pip install git+https://github.com/mit-nlp/MITIE.git
+#RUN pip install git+https://github.com/mit-nlp/MITIE.git
 
 # spaCy + sklearn
 RUN pip install -U spacy

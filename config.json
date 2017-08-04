@@ -1,6 +1,5 @@
 {
-  "pipeline": "mitie_sklearn",
+  "pipeline": "spacy_sklearn",
   "path" : "models",
-  "mitie_file": "./total_word_feature_extractor.dat",
   "cors_origins": ["*"]
 }
