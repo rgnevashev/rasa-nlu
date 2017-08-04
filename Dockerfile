@@ -14,9 +14,9 @@ RUN pip install rasa_nlu
 RUN pip install git+https://github.com/mit-nlp/MITIE.git
 
 # spaCy + sklearn
-RUN pip install -U spacy
-RUN python -m spacy download en
-RUN pip install -U scikit-learn scipy sklearn-crfsuite
+#RUN pip install -U spacy
+#RUN python -m spacy download en
+#RUN pip install -U scikit-learn scipy sklearn-crfsuite
 
 WORKDIR ${RASA_NLU_HOME}
 
